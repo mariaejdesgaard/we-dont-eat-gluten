@@ -1,12 +1,11 @@
 //"use strict";
 
-/*
 document.addEventListener('DOMContentLoaded', (e) => {
-    setTimeout(() => {
-        document.querySelector('.splash').classList.add('display-none');
-    }, 2000);
+  setTimeout(() => {
+    document.querySelector('.splash').classList.add('display-none');
+  }, 2000);
 
-});*/
+});
 
 // Global variable
 let _restaurants = [];
