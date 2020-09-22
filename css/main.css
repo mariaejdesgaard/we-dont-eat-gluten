@@ -178,7 +178,7 @@ h3 {
   z-index: 9999;
   color: white;
   text-align: center;
-  line-height: 120vh;
+  line-height: 150vh;
 }
 
 
@@ -194,7 +194,7 @@ h3 {
   z-index: -10;
   color: white;
   text-align: center;
-  line-height: 120vh;
+  line-height: 150vh;
   transition: all 0.5s;
 }
 
