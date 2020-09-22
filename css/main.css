@@ -1,0 +1,218 @@
+/* ---------- root variables ---------- */
+:root {
+  --green: rgb(38, 76, 89);
+  --tabbar: #FFF;
+  --light-green: rgb(172, 198, 201);
+  --light-grey: #f1f1f4;
+  --text-color-light: #FF785B;
+  --text-color-dark: #454545;
+  --border: #A0A0A0;
+  --sig-color: #EAEAEA0;
+}
+
+/* ---------- General styling ---------- */
+html {
+  color: var(--text-color-dark);
+  font-family: houschka-rounded, sans-serif;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+  font-weight: 500;
+}
+
+.page {
+  padding-bottom: 100px;
+}
+
+
+/* ---------- Home styling ---------- */
+
+#home.page{
+  background-color: #EAEAE0;
+  padding-top: 200px;
+  padding-bottom: 250px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+#map.page{
+ padding-bottom: 650px;
+}
+
+body{
+  margin: 0;
+  background-color: #F5F6F8;
+}
+
+
+h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+h3 {
+  color: var(--text-color-dark);
+}
+
+
+/* ---------- Tabbar styling ---------- */
+.tabbar {
+  background-color: var(--tabbar);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  border-top: 1px solid #A0A0A0;
+}
+
+/* Style the links inside the navigation bar */
+.tabbar a {
+  display: inline-block;
+  padding: 8px 30px;
+}
+
+/* Change the color of links on hover */
+.tabbar a:hover {
+
+  color: var(--text-color-dark);
+}
+
+/* Add a color to the active/current link */
+.tabbar a.active {
+  color: var(--text-color-light);
+}
+
+/* Menu icon size */
+.tabbar img {
+  width: 30px;
+}
+
+.inactive-icon {
+  display: block;
+}
+
+.active-icon {
+  display: none;
+}
+
+.active .inactive-icon {
+  display: none;
+}
+
+.active .active-icon {
+  display: block;
+}
+/* ---------- Homepage styling ----------  sofia+maria */
+
+/* Searchfield  */
+
+#by-soeg {
+  -webkit-appearance: none;
+  margin: 1em auto;
+  margin-bottom: 25px;
+  width: 100%;
+  max-width: 350px;
+  padding: 15px 15px;
+  box-sizing: border-box;
+  display: block;
+  background: #fff;
+  border: 0;
+  border-radius: 10px;
+  font-family: houschka-rounded, sans-serif;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+.button-button {
+  text-decoration: none;
+  padding: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: 8px;
+  margin-bottom: 13px;
+  border-radius: 12px;
+  border: 0;
+  background: var(--text-color-light);
+  color: #FFF;
+   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+   font-family: houschka-rounded, sans-serif;
+   font-size: 12px;
+   font-weight: 500;
+
+}
+
+.button-button:nth-child(3) {
+  margin-right: 8px;
+}
+
+.button-button:nth-last-child(1) {
+  margin-right: 8px;
+}
+
+.button-button a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+
+/*------------- Splash screen styling -----
+
+.splash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #EAEAE0;
+  z-index: 9999;
+  color: white;
+  text-align: center;
+  line-height: 120vh;
+}
+
+
+
+.splash.display-none {
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #EAEAE0;
+  z-index: -10;
+  color: white;
+  text-align: center;
+  line-height: 120vh;
+  transition: all 0.5s;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  bottom: 0;
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+}
+*/
+
+/* Map */
+
+#map {
+  background-image: url(../img/google-maps.png);
+  background-size: cover;
+}

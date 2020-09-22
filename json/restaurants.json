@@ -1,0 +1,485 @@
+[
+    {
+        "id": "kowloon",
+        "name": "Kowloon",
+        "hours": "12:00 - 21:00",
+        "phone": "86 19 19 98",
+        "adress": "Frederiksgade 78, Aarhus",
+        "option1": "Tom kha kai",
+        "description1": "Kokosmælkssuppe med kylling, champignon og koriander",
+        "option2": "Kylling i gul karry",
+        "description2": "Kylling i gul karry m. blandede grøntsager og ris",
+        "option3": "Stegt and i oistersauce",
+        "description3": "Stegt and med grøntsager, kinesiske svampe og ris",
+        "review": "4",
+        "link": "http://kowloon.dk/banegaardsgade/menukort.html",
+        "img": "img/kowloon.png",
+        "imgcrop": "img/kowloon-kopi.png",
+        "categories": [
+            "thai"
+        ]
+    },
+    {
+        "id": "tuktuk",
+        "name": "TukTuk",
+        "hours": "11:30 - 21:00",
+        "phone": "undefined",
+        "adress": "Ny Banegårdsgade 46, Aarhus",
+        "option1": "Rød karry",
+        "description1": "Kokosmælkssuppe med kylling, champignon og koriander",
+        "option2": "Panang",
+        "description2": "Kylling i gul karry m. blandede grøntsager og ris",
+        "option3": "Grøn karry",
+        "description3": "Stegt and med grøntsager, kinesiske svampe og ris",
+        "review": "4",
+        "link": "undefined",
+        "img": "img/tuktuk.png",
+        "imgcrop": "img/tuktuk-kopi.png",
+        "categories": [
+            "thai"
+        ]
+    },
+    {
+        "id": "anettes",
+        "name": "Anettes Sandwich",
+        "hours": "09:30 - 20:00",
+        "phone": "87 46 07 82",
+        "adress": "Sdr. Ringgade 39, Aarhus",
+        "option1": "Sandwich med kylling og basilikumpesto",
+        "description1": "Kokosmælkssuppe med kylling, champignon og koriander",
+        "option2": "Sandwich med hønsesalat & bacon",
+        "description2": "Kylling i gul karry m. blandede grøntsager og ris",
+        "option3": "Sandwich med laks og rejser",
+        "description3": "Stegt and med grøntsager, kinesiske svampe og ris",
+        "review": "4",
+        "link": "https://www.anettessandwich.dk/menu/",
+        "img": "img/anettessandwich.png",
+        "imgcrop": "img/anettessandwich-kopi.png",
+        "categories": [
+            "sandwich"
+        ]
+    },
+    {
+        "id": "glad",
+        "name": "Café GLAD",
+        "hours": "09:00 - 20:00",
+        "phone": "61 42 77 33",
+        "adress": "Frederiks allé 127, Aarhus",
+        "option1": "Rød karry",
+        "description1": "Kokosmælkssuppe med kylling, champignon og koriander",
+        "option2": "Panang",
+        "description2": "Kylling i gul karry m. blandede grøntsager og ris",
+        "option3": "Grøn karry",
+        "description3": "Stegt and med grøntsager, kinesiske svampe og ris",
+        "review": "3",
+        "link": "https://wwww.spisdigglad.dk/menu/",
+        "img": "img/cafeglad.png",
+        "imgcrop": "img/cafeglad-kopi.png",
+        "categories": [
+            "sandwich",
+            "morgenmad"
+        ]
+    },
+    {
+        "id": "juicestop",
+        "name": "Juice Stop",
+        "hours": "09:30 - 17:30",
+        "phone": "86 12 69 65",
+        "adress": "Badstuegade 4, Aarhus",
+        "option1": "Rød karry",
+        "description1": "Kokosmælkssuppe med kylling, champignon og koriander",
+        "option2": "Panang",
+        "description2": "Kylling i gul karry m. blandede grøntsager og ris",
+        "option3": "Grøn karry",
+        "description3": "Stegt and med grøntsager, kinesiske svampe og ris",
+        "review": "5",
+        "link": "http://juicestop.dk/menukort/",
+        "img": "img/juicestop.png",
+        "imgcrop": "img/juicestop-kopi.png",
+        "categories": [
+            "sandwich"
+        ]
+    },
+    {
+        "id": "kallos",
+        "name": "Kallos Pizza",
+        "hours": "16:30 - 21:00",
+        "phone": "86 10 11 33",
+        "adress": "Badstuegade 4, Aarhus",
+        "option1": "Rød karry",
+        "description1": "Kokosmælkssuppe med kylling, champignon og koriander",
+        "option2": "Panang",
+        "description2": "Kylling i gul karry m. blandede grøntsager og ris",
+        "option3": "Grøn karry",
+        "description3": "Stegt and med grøntsager, kinesiske svampe og ris",
+        "review": "5",
+        "link": "https://www.kallos.dk/menu",
+        "img": "img/kallos.png",
+        "imgcrop": "img/kallos-kopi.png",
+        "categories": [
+            "pizza"
+        ]
+    },
+    {
+        "id": "propria",
+        "name": "Pizza Propria",
+        "hours": "17:00 - 21:00",
+        "phone": "81 11 11 07",
+        "adress": "Jægergårdsgade 7, Aarhus",
+        "option1": "Rød karry",
+        "description1": "Kokosmælkssuppe med kylling, champignon og koriander",
+        "option2": "Panang",
+        "description2": "Kylling i gul karry m. blandede grøntsager og ris",
+        "option3": "Grøn karry",
+        "description3": "Stegt and med grøntsager, kinesiske svampe og ris",
+        "review": "5",
+        "link": "https://www.pizzapropria.dk/ ",
+        "img": "img/propria.png",
+        "imgcrop": "img/propria-kopi.png",
+        "categories": [
+            "pizza"
+        ]
+    },
+    {
+        "id": "byensb",
+        "name": "Byens Burger",
+        "hours": "11:00 - 23:00",
+        "phone": "86 12 70 47",
+        "adress": "Badstuegade 4, Aarhus",
+        "option1": "Rød karry",
+        "description1": "Kokosmælkssuppe med kylling, champignon og koriander",
+        "option2": "Panang",
+        "description2": "Kylling i gul karry m. blandede grøntsager og ris",
+        "option3": "Grøn karry",
+        "description3": "Stegt and med grøntsager, kinesiske svampe og ris",
+        "review": "5",
+        "link": "https://www.byensburger.dk/menu.php",
+        "img": "img/byensburger.png",
+        "imgcrop": "img/byensburger-kopi.png",
+        "categories": [
+            "pizza",
+            "burger"
+        ]
+    },
+    {
+        "id": "pastafresca",
+        "name": "Delicatezze Pasta Fresca",
+        "hours": "11:30 - 21:00",
+        "phone": "86 10 11 33",
+        "adress": "Badstuegade 4, Aarhus",
+        "option1": "Rød karry",
+        "description1": "Kokosmælkssuppe med kylling, champignon og koriander",
+        "option2": "Panang",
+        "description2": "Kylling i gul karry m. blandede grøntsager og ris",
+        "option3": "Grøn karry",
+        "description3": "Stegt and med grøntsager, kinesiske svampe og ris",
+        "review": "5",
+        "link": "none",
+        "img": "img/delicatezze.png",
+        "imgcrop": "img/delicatezze-kopi.png",
+        "categories": [
+            "pasta"
+        ]
+    },
+    {
+        "id": "grappa",
+        "name": "Grappa",
+        "hours": "10:00 - 22:00",
+        "phone": "86 12 33 43",
+        "adress": "Åboulevarden 60, Aarhus",
+        "option1": "Rød karry",
+        "description1": "Kokosmælkssuppe med kylling, champignon og koriander",
+        "option2": "Panang",
+        "description2": "Kylling i gul karry m. blandede grøntsager og ris",
+        "option3": "Grøn karry",
+        "description3": "Stegt and med grøntsager, kinesiske svampe og ris",
+        "review": "5",
+        "link": "https://www.jakobsenco.dk/grappa/",
+        "img": "img/grappa.png",
+        "imgcrop": "img/grappa-kopi.png",
+        "categories": [
+            "pasta"
+        ]
+    },
+    {
+        "id": "siam",
+        "name": "A+ Siam Sushi",
+        "hours": "12:00 - 21:30",
+        "phone": "86 13 62 70",
+        "adress": "Frederiksgade 32, Aarhus",
+        "option1": "Rød karry",
+        "description1": "Kokosmælkssuppe med kylling, champignon og koriander",
+        "option2": "Panang",
+        "description2": "Kylling i gul karry m. blandede grøntsager og ris",
+        "option3": "Grøn karry",
+        "description3": "Stegt and med grøntsager, kinesiske svampe og ris",
+        "review": "5",
+        "link": "http://restaurant.aplussiamsushi.dk/restaurant/menu/",
+        "img": "img/siam.png",
+        "imgcrop": "img/siam-kopi.png",
+        "categories": [
+            "sushi"
+        ]
+    },
+    {
+        "id": "saichi",
+        "name": "Saichi",
+        "hours": "12:00 - 22:00",
+        "phone": "87 80 00 08",
+        "adress": "Jægergårdsgade 81, Aarhus",
+        "option1": "Rød karry",
+        "description1": "Kokosmælkssuppe med kylling, champignon og koriander",
+        "option2": "Panang",
+        "description2": "Kylling i gul karry m. blandede grøntsager og ris",
+        "option3": "Grøn karry",
+        "description3": "Stegt and med grøntsager, kinesiske svampe og ris",
+        "review": "5",
+        "link": "https://saichi.dk/pdf-menu/",
+        "img": "img/saichi.png",
+        "imgcrop": "img/saichi-kopi.png",
+        "categories": [
+            "sushi"
+        ]
+    },
+    {
+        "id": "karma",
+        "name": "Karma Sushi",
+        "hours": "17:00 - 21:00",
+        "phone": "92 90 19 05",
+        "adress": "Vestergade 48, Aarhus",
+        "option1": "Rød karry",
+        "description1": "Kokosmælkssuppe med kylling, champignon og koriander",
+        "option2": "Panang",
+        "description2": "Kylling i gul karry m. blandede grøntsager og ris",
+        "option3": "Grøn karry",
+        "description3": "Stegt and med grøntsager, kinesiske svampe og ris",
+        "review": "5",
+        "link": "https://karmasushi.dk/menu/",
+        "img": "img/karma.png",
+        "imgcrop": "img/karma-kopi.png",
+        "categories": [
+            "sushi"
+        ]
+    },
+    {
+        "id": "vaca",
+        "name": "VACA",
+        "hours": "11:30 - 21:00",
+        "phone": "92 90 08 06",
+        "adress": "Frederiksgade 32, Aarhus",
+        "option1": "Rød karry",
+        "description1": "Kokosmælkssuppe med kylling, champignon og koriander",
+        "option2": "Panang",
+        "description2": "Kylling i gul karry m. blandede grøntsager og ris",
+        "option3": "Grøn karry",
+        "description3": "Stegt and med grøntsager, kinesiske svampe og ris",
+        "review": "5",
+        "link": "https://vaca.dk/menu/",
+        "img": "img/vaca.png",
+        "imgcrop": "img/vaca-kopi.png",
+        "categories": [
+            "mexi"
+        ]
+    },
+    {
+        "id": "faust",
+        "name": "Café Faust",
+        "hours": "09:30 - 21:30",
+        "phone": "86 19 07 06",
+        "adress": "Åboulevarden 38, Aarhus",
+        "option1": "Rød karry",
+        "description1": "Kokosmælkssuppe med kylling, champignon og koriander",
+        "option2": "Panang",
+        "description2": "Kylling i gul karry m. blandede grøntsager og ris",
+        "option3": "Grøn karry",
+        "description3": "Stegt and med grøntsager, kinesiske svampe og ris",
+        "review": "5",
+        "link": "https://cafefaust.dk/",
+        "img": "img/faust.png",
+        "imgcrop": "img/faust-kopi.png",
+        "categories": [
+            "burger"
+        ]
+    },
+    {
+        "id": "burgershack",
+        "name": "Burger Shack",
+        "hours": "11:30-21:00",
+        "phone": "70 27 46 50",
+        "adress": "Frederiksgade 39, Aarhus",
+        "option1": "Rød karry",
+        "description1": "Kokosmælkssuppe med kylling, champignon og koriander",
+        "option2": "Panang",
+        "description2": "Kylling i gul karry m. blandede grøntsager og ris",
+        "option3": "Grøn karry",
+        "description3": "Stegt and med grøntsager, kinesiske svampe og ris",
+        "review": "5",
+        "link": "https://cafefaust.dk/",
+        "img": "img/burgershack.png",
+        "imgcrop": "img/burgershack-kopi.png",
+        "categories": [
+            "burger"
+        ]
+    },
+    {
+        "id": "emma",
+        "name": "For Emma",
+        "hours": "10:00 - 17:00",
+        "phone": "86 12 82 72",
+        "adress": "Vestergade 15, Aarhus",
+        "option1": "Rød karry",
+        "description1": "Kokosmælkssuppe med kylling, champignon og koriander",
+        "option2": "Panang",
+        "description2": "Kylling i gul karry m. blandede grøntsager og ris",
+        "option3": "Grøn karry",
+        "description3": "Stegt and med grøntsager, kinesiske svampe og ris",
+        "review": "5",
+        "link": "https://foremma.dk/",
+        "img": "img/foremma.png",
+        "imgcrop": "img/foremma-kopi.png",
+        "categories": [
+            "dessert"
+        ]
+    },
+    {
+        "id": "drudenfuss",
+        "name": "Café Drudenfuss",
+        "hours": "09:00 - 00:00",
+        "phone": "86 12 82 72",
+        "adress": "Graven 30, Aarhus",
+        "option1": "Rød karry",
+        "description1": "Kokosmælkssuppe med kylling, champignon og koriander",
+        "option2": "Panang",
+        "description2": "Kylling i gul karry m. blandede grøntsager og ris",
+        "option3": "Grøn karry",
+        "description3": "Stegt and med grøntsager, kinesiske svampe og ris",
+        "review": "5",
+        "link": "http://drudenfuss.dk/#menucard",
+        "img": "img/drudenfuss.png",
+        "imgcrop": "img/drudenfuss-kopi.png",
+        "categories": [
+            "dessert"
+        ]
+    },
+    {
+        "id": "socialfoodies",
+        "name": "Social Foodies",
+        "hours": "10:00 - 22:00",
+        "phone": "22 10 01 35",
+        "adress": "M.P. Bruuns Gade 60, Aarhus",
+        "option1": "Rød karry",
+        "description1": "Kokosmælkssuppe med kylling, champignon og koriander",
+        "option2": "Panang",
+        "description2": "Kylling i gul karry m. blandede grøntsager og ris",
+        "option3": "Grøn karry",
+        "description3": "Stegt and med grøntsager, kinesiske svampe og ris",
+        "review": "5",
+        "link": "https://socialfoodies.dk/aarhus/",
+        "img": "img/socialfoodies.png",
+        "imgcrop": "img/socialfoodies-kopi.png",
+        "categories": [
+            "dessert"
+        ]
+    },
+    {
+        "id": "cafefika",
+        "name": "Café Fika",
+        "hours": "11:00 - 20:00",
+        "phone": "86 12 82 72",
+        "adress": "Jægergårdsgade 47, Aarhus",
+        "option1": "Rød karry",
+        "description1": "Kokosmælkssuppe med kylling, champignon og koriander",
+        "option2": "Panang",
+        "description2": "Kylling i gul karry m. blandede grøntsager og ris",
+        "option3": "Grøn karry",
+        "description3": "Stegt and med grøntsager, kinesiske svampe og ris",
+        "review": "5",
+        "link": "hhttp://cafefika.dk/menu/",
+        "img": "img/fika.png",
+        "imgcrop": "img/fika-kopi.png",
+        "categories": [
+            "morgenmad"
+        ]
+    },
+    {
+        "id": "cafefrida",
+        "name": "Café Frida",
+        "hours": "09:30 - 16:00",
+        "phone": "86 12 82 72",
+        "adress": "Mejlgade 14, Aarhus",
+        "option1": "Rød karry",
+        "description1": "Kokosmælkssuppe med kylling, champignon og koriander",
+        "option2": "Panang",
+        "description2": "Kylling i gul karry m. blandede grøntsager og ris",
+        "option3": "Grøn karry",
+        "description3": "Stegt and med grøntsager, kinesiske svampe og ris",
+        "review": "5",
+        "link": "https://cafefrida.dk/menu/",
+        "img": "img/cafefrida.png",
+        "imgcrop": "img/cafefrida-kopi.png",
+        "categories": [
+            "morgenmad"
+        ]
+    },
+    {
+        "id": "melone",
+        "name": "Melone",
+        "hours": "12:00 - 20:00",
+        "phone": "24 14 75 45",
+        "adress": "Fredriks Allé 96, Aarhus",
+        "option1": "Rød karry",
+        "description1": "Kokosmælkssuppe med kylling, champignon og koriander",
+        "option2": "Panang",
+        "description2": "Kylling i gul karry m. blandede grøntsager og ris",
+        "option3": "Grøn karry",
+        "description3": "Stegt and med grøntsager, kinesiske svampe og ris",
+        "review": "5",
+        "link": "https://melone.dk/#menu",
+        "img": "img/melone.png",
+        "imgcrop": "img/melone-kopi.png",
+        "categories": [
+            "vegan"
+        ]
+    },
+    {
+        "id": "plantfood",
+        "name": "Plant food",
+        "hours": "11:30 - 21:00",
+        "phone": "50 27 01 56",
+        "adress": "Ny Banegårdsgade 46, Aarhus",
+        "option1": "Rød karry",
+        "description1": "Kokosmælkssuppe med kylling, champignon og koriander",
+        "option2": "Panang",
+        "description2": "Kylling i gul karry m. blandede grøntsager og ris",
+        "option3": "Grøn karry",
+        "description3": "Stegt and med grøntsager, kinesiske svampe og ris",
+        "review": "5",
+        "link": "https://plant-food.dk/",
+        "img": "img/plantfood.png",
+        "imgcrop": "img/plantfood-kopi.png",
+        "categories": [
+            "vegan"
+        ]
+    },
+    {
+        "id": "piccolina",
+        "name": "Piccolina",
+        "hours": "16:00 - 21:00",
+        "phone": "23 39 78 19",
+        "adress": "Skolegyde 8, Aarhus",
+        "option1": "Rød karry",
+        "description1": "Kokosmælkssuppe med kylling, champignon og koriander",
+        "option2": "Panang",
+        "description2": "Kylling i gul karry m. blandede grøntsager og ris",
+        "option3": "Grøn karry",
+        "description3": "Stegt and med grøntsager, kinesiske svampe og ris",
+        "review": "5",
+        "link": "https://piccolina.dk/menu-2",
+        "img": "img/piccolina.png",
+        "imgcrop": "img/piccolina-kopi.png",
+        "categories": [
+            "pasta",
+            "vegan"
+        ]
+    }
+]

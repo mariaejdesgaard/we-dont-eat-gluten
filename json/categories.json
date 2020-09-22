@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Sandwich",
+        "img": "img/anettessandwich.png"
+    },
+    {
+        "name": "Pizza",
+        "img": "img/grappa.png"
+    },
+    {
+        "name": "Pasta",
+        "img": "img/piccolina.png"
+    },
+    {
+        "name": "Sushi",
+        "img": "img/karma.png"
+    },
+    {
+        "name": "Mexicansk",
+        "img": "img/vaca.png"
+    },
+    {
+        "name": "Thai",
+        "cityfav": "Aarhus",
+        "img": "img/kowloon.png"
+    },
+    {
+        "name": "Dessert",
+        "img": "img/socialfoodies.png"
+    },
+    {
+        "name": "Burger",
+        "img": "img/burgershack.png"
+    },
+    {
+        "name": "Vegetar",
+        "img": "img/plantfood.png"
+    },
+    {
+        "name": "Morgenmad",
+        "img": "img/cafefrida.png"
+    }
+]
