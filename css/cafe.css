@@ -26,7 +26,9 @@
   margin-bottom: 30px;
   max-width: 320px;
 }
-
+.accordion {
+  text-align: left;
+}
 .accordion__item {
   background: #fffffe;
   border-radius: 4px;
@@ -60,6 +62,7 @@
   background: url("https://cdn.statically.io/gist/koptyaisky/33f5da3d9e6b6cacdf5a353ad033c2ea/raw/c8468a17e0141ee82a2571deea1f76162abb47b6/arrow-down-blue.svg") no-repeat center;
   background-size: contain;
   transition: all .4s ease;
+  text-align: left;
 }
 
 .accordion__body {
@@ -92,12 +95,9 @@
 }
 
 
-#xontent {
-  width: 100%;
+.xontent-container {
   height: 100%;
-  border-radius: 50px;
   background: transparent;
-  margin-bottom: 135px;
 }
 
 .top-container {
@@ -105,6 +105,7 @@
   justify-content: space-between;
   align-items: baseline;
   margin-bottom: 30px;
+  border-radius: 50px;
 }
 
 .xontent-container {
@@ -148,5 +149,10 @@
   width: 40px;
     float: left;
     margin: 15px 0px 0px 15px;
+}
+
+.accordion {
+  margin-top: 200px;
+  margin-bottom: 20px;
 }
 
