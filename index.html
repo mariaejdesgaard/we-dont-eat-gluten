@@ -1,151 +1,149 @@
 <!doctype html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <title>We Don't Eat</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="SPA">
-        <meta name="author" content="Camilla, Maria, Sofia & Anne">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/categories.css">
-        <link rel="stylesheet" href="css/restaurants.css">
-        <link rel="stylesheet" href="css/cafe.css">
-        <link rel="stylesheet" href="css/favorit.css">
-        <link
-            href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet" href="https://use.typekit.net/axl3gvm.css">
+<head>
+    <meta charset="utf-8">
+    <title>We Don't Eat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="SPA">
+    <meta name="author" content="Camilla, Maria, Sofia & Anne">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/categories.css">
+    <link rel="stylesheet" href="css/restaurants.css">
+    <link rel="stylesheet" href="css/cafe.css">
+    <link rel="stylesheet" href="css/favorit.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/axl3gvm.css">
 
-        <!-- <link rel="shortcut icon" type="image/png" href="img/favicon.png" /> -->
-    </head>
+    <!-- <link rel="shortcut icon" type="image/png" href="img/favicon.png" /> -->
+</head>
 
-    <body onhashchange="pageChange()">
+<body onhashchange="pageChange()">
 
-        <!-- Tabbar navigation -->
-        <!-- Icon attribute https://prod.liveshare.vsengsaas.visualstudio.com/join?9201DFB823B7E0196E96AC733609D709D8EA -->
-        <!-- Icon attribute Icons made by <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> -->
+    <!-- Tabbar navigation -->
+    <!-- Icon attribute https://prod.liveshare.vsengsaas.visualstudio.com/join?9201DFB823B7E0196E96AC733609D709D8EA -->
+    <!-- Icon attribute Icons made by <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> -->
 
-        <nav class="tabbar">
-            <a href="#favoritter">
-                <img src="img/black-heart.png" alt="" class="inactive-icon">
-                <img src="img/heart.png" alt="" class="active-icon"></a>
+    <nav class="tabbar">
+        <a href="#favoritter">
+            <img src="img/black-heart.png" alt="" class="inactive-icon">
+            <img src="img/heart.png" alt="" class="active-icon"></a>
 
-            <a href="#home">
-                <img src="img/black-house.png" alt="" class="inactive-icon">
-                <img src="img/house.png" alt="" class="active-icon"></a>
+        <a href="#home">
+            <img src="img/black-house.png" alt="" class="inactive-icon">
+            <img src="img/house.png" alt="" class="active-icon"></a>
 
-            <a href="#map">
-                <img src="img/black-map.png" alt="" class="inactive-icon">
-                <img src="img/map.png" alt="" class="active-icon"></a>
-        </nav>
+        <a href="#map">
+            <img src="img/black-map.png" alt="" class="inactive-icon">
+            <img src="img/map.png" alt="" class="active-icon"></a>
+    </nav>
 
 
-        <!-- Splashscreen -->
+    <!-- Splashscreen -->
     <div class="splash">
         <img class=fade-in src="img/logo.png">
     </div>
 
-        <!-- Pages -->
-        <!-- FAVERITE PAGE-->
-        <section id="favoritter" class="page">
-            <header class="topbar">
-                <h1>MINE <span>FAVORITTER</span></h1>
-            </header>
-            <div id="favoritcontainer">
+    <!-- Pages -->
+    <!-- FAVERITE PAGE-->
+    <section id="favoritter" class="page">
+        <header class="topbar">
+            <h1>MINE <span>FAVORITTER</span></h1>
+        </header>
+        <div id="favoritcontainer">
 
-            </div>
-            <!-- <button onclick="reset()">Reset</button> -->
-            <!-- <button onclick="filterByCate"ories('Communication')">Communication</button> -->
-            <!-- <section id="categories" class="catogories-grid-container"> -->
-        </section>
+        </div>
+        <!-- <button onclick="reset()">Reset</button> -->
+        <!-- <button onclick="filterByCate"ories('Communication')">Communication</button> -->
+        <!-- <section id="categories" class="catogories-grid-container"> -->
+    </section>
 
-        <!-- HOME PAGE -->
-        <section id="home" class="page">
+    <!-- HOME PAGE -->
+    <section id="home" class="page">
 
-            <h1>Hvor befinder du dig?</h1>
+        <h1>Hvor befinder du dig?</h1>
+        <div class="input-icons">
+            <img src="img/map-pin.png" class="map-icon">
+            <input id="by-soeg" type="search" placeholder="Søg efter sted..." onkeyup="search(this.value)">
+        </div>
+
+        <div class="button-container">
+            <button class="button-button">København</button>
+            <button class="button-button"> <a href="#kategorier">Aarhus</a></button>
+            <button class="button-button">Aalborg</button> <br>
+            <button class="button-button">Odense</button>
+            <button class="button-button">Esbjerg</button>
+            <button class="button-button">Randers</button>
+        </div>
+
+    </section>
+
+    <!--CATEGORY PAGE-->
+    <section id="kategorier" class="page">
+
+        <header class="topbar">
+
+            <a href="#home"><img src="img/arrow.png" alt="" class="arrow"></a> <br><br><br>
+
+            <h2>Hvad søger du?</h2>
             <div class="input-icons">
-                <img src="img/map-pin.png" class="map-icon">
-                <input id="by-soeg" type="search" placeholder="Søg efter sted..." onkeyup="search(this.value)">
+                <img src="img/search.png" class="search-icon">
+                <input id="kate-soeg" type="search" placeholder="Søg efter kategori her..."
+                    onkeyup="search(this.value)">
+
             </div>
 
-            <div class="button-container">
-                <button class="button-button">København</button>
-                <button class="button-button"> <a href="#kategorier">Aarhus</a></button>
-                <button class="button-button">Aalborg</button> <br>
-                <button class="button-button">Odense</button>
-                <button class="button-button">Esbjerg</button>
-                <button class="button-button">Randers</button>
-            </div>
-
-        </section>
-
-        <!--CATEGORY PAGE-->
-        <section id="kategorier" class="page">
-
-            <header class="topbar">
-
-                <a href="#home"><img src="img/arrow.png" alt="" class="arrow"></a> <br><br><br>
-
-                <h2>Hvad søger du?</h2>
-                <div class="input-icons">
-                    <img src="img/search.png" class="search-icon">
-                    <input id="kate-soeg" type="search" placeholder="Søg ef kategori her..."
-                        onkeyup="search(this.value)">
-
-                </div>
-
-            </header>
+        </header>
 
 
-            <section id="kategori-container">
-                <h1>KATEGORIER <span>AARHUS</span></h1>
-                <section id="categories" class="catogories-grid-container">
-                </section>
+        <section id="kategori-container">
+            <h1>KATEGORIER <span>AARHUS</span></h1>
+            <section id="categories" class="catogories-grid-container">
             </section>
-
-
         </section>
 
 
-        <!--RESTAURANT PAGE-->
-        <section id="restauranter" class="page">
-            <header class="res-topbar">
-                <a href="#kategorier"><img src="img/arrow.png" alt=""></a><br>
-                <h1>DINE MULIGHEDER</h1>
-            </header>
-
-            <section id="restaurants" class="restaurant-grid-container">
-            </section>
+    </section>
 
 
+    <!--RESTAURANT PAGE-->
+    <section id="restauranter" class="page">
+        <header class="res-topbar">
+            <a href="#kategorier"><img src="img/arrow.png" alt=""></a><br>
+            <h1>DINE MULIGHEDER</h1>
+        </header>
+
+        <section id="restaurants" class="restaurant-grid-container">
         </section>
 
 
+    </section>
 
-        <!-- CAFE PAGE -->
-        <!-- <section id="cafe" class="page">
+
+
+    <!-- CAFE PAGE -->
+    <!-- <section id="cafe" class="page">
 
     </section> -->
 
 
 
-        <!-- MAP PAGE -->
-        <section id="map" class="page">
+    <!-- MAP PAGE -->
+    <section id="map" class="page">
 
-        </section>
-
-
-        <!-- Cafe JS file -->
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
-        <!-- SPA functionality  -->
-        <script src="js/spa.js"></script>
-
-        <!-- Main JS file -->
-        <script src="js/main.js"></script>
+    </section>
 
 
+    <!-- Cafe JS file -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <!-- SPA functionality  -->
+    <script src="js/spa.js"></script>
+
+    <!-- Main JS file -->
+    <script src="js/main.js"></script>
 
 
 
@@ -156,6 +154,8 @@
 
 
 
-    </body>
+
+
+</body>
 
 </html>
